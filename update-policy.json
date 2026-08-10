@@ -1,4 +1,31 @@
 {
-  "latest": "0.0.0",
-  "releases": {}
+  "latest": "1.1.0",
+  "minimumVersion": "1.1.0",
+  "releases": {
+    "1.1.0": {
+      "publishedAt": "2026-08-11T00:00:00Z",
+      "sizeMb": 105,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Your licence and your account live in SpaleHub now — one place for every Spale program. Install SpaleHub, sign in there, and SpaleStudio unlocks itself.",
+            "Updates come through SpaleHub as well."
+          ],
+          "gone": [
+            "The licence key box and the computer list inside SpaleStudio. Both are in SpaleHub."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Licenca i nalog su sada u SpaleHub-u — jedno mesto za sve Spale programe. Instalirajte SpaleHub, prijavite se tamo, i SpaleStudio se sam otključava.",
+            "Ažuriranja takođe idu kroz SpaleHub."
+          ],
+          "gone": [
+            "Polje za licencni ključ i spisak računara unutar SpaleStudija. Oba su u SpaleHub-u."
+          ]
+        }
+      }
+    }
+  }
 }
