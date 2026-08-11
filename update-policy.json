@@ -1,6 +1,6 @@
 {
-  "latest": "1.1.2",
-  "minimumVersion": "1.1.2",
+  "latest": "1.2.0",
+  "minimumVersion": "1.2.0",
   "releases": {
     "1.1.0": {
       "publishedAt": "2026-08-11T00:00:00Z",
@@ -23,6 +23,23 @@
           ],
           "gone": [
             "Polje za licencni ključ i spisak računara unutar SpaleStudija. Oba su u SpaleHub-u."
+          ]
+        }
+      }
+    },
+    "1.2.0": {
+      "publishedAt": "2026-08-11T07:00:00Z",
+      "sizeMb": 105,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "fixed": [
+            "The welcome screen could not be moved — it covered the whole window, including the part you drag.",
+            "Quitting closed the database and the terminals before asking about unsaved work, so Save failed and Cancel left the program gutted.",
+            "Using the desktop app logged out every web-access session, repeatedly."
+          ],
+          "new": [
+            "Game mode only watches games you choose, and remembers them. Nothing is watched by default."
           ]
         }
       }
