@@ -1,6 +1,6 @@
 {
-  "latest": "1.4.3",
-  "minimumVersion": "1.4.3",
+  "latest": "1.4.4",
+  "minimumVersion": "1.4.4",
   "releases": {
     "1.1.0": {
       "publishedAt": "2026-08-11T00:00:00Z",
@@ -189,6 +189,39 @@
             "Otvaranje SpaleStudija sa telefona ili iz pregledača prikazuje program umesto „Cannot GET /\" — web interfejs nikada nije ni bio serviran u objavljenoj verziji.",
             "Prozor se više ne zamrzne na trenutak kad folder traži poverenje.",
             "Naslovi u Settings-u se više ne gomilaju jedan preko drugog dok skroluješ."
+          ]
+        }
+      }
+    },
+    "1.4.4": {
+      "publishedAt": "2026-08-11T17:38:27.741Z",
+      "sizeMb": 106,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Reach SpaleStudio from your phone with one password, set under Settings → Web access. No account, no sign-up — it is your machine.",
+            "Choose how many devices may be signed in at once, or set it to unlimited. When the last place is taken the next browser is turned away rather than quietly pushing someone off.",
+            "See what is connected. Settings lists every signed-in browser, marks the one you are on, and signs any of them out on its own.",
+            "If your licence lapses while you are working, SpaleStudio says so and opens SpaleHub on the screen that fixes it — the key, or this computer."
+          ],
+          "fixed": [
+            "The welcome screen finally matches the theme you picked. Every colour on it follows the accent, so pink is pink and light is light.",
+            "Typing the web password no longer lands you on a second sign-in screen.",
+            "The AI that powers the editor is presented as a choice between models, not as one with a status light bolted to it."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Uđi u SpaleStudio sa telefona jednom lozinkom, iz Settings → Web access. Bez naloga i bez registracije — to je tvoja mašina.",
+            "Izaberi koliko uređaja može biti prijavljeno odjednom, ili stavi neograničeno. Kad se popuni, sledeći pregledač se odbija umesto da tiho izbaci nekoga.",
+            "Vidi šta je povezano. Settings izlistava svaki prijavljen pregledač, označi onaj na kom si, i odjavljuje bilo koji pojedinačno.",
+            "Ako licenca istekne dok radiš, SpaleStudio to kaže i otvori SpaleHub na ekranu koji to rešava — ključ, ili ovaj računar."
+          ],
+          "fixed": [
+            "Početni ekran se konačno slaže sa temom koju si izabrao. Svaka boja na njemu prati akcenat, pa je roze roze a svetla tema svetla.",
+            "Posle unete web lozinke više te ne dočekuje drugi ekran za prijavu.",
+            "AI koji pokreće editor je predstavljen kao izbor između modela, a ne kao jedan sa zalepljenom lampicom statusa."
           ]
         }
       }
