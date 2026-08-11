@@ -1,6 +1,6 @@
 {
-  "latest": "1.2.0",
-  "minimumVersion": "1.2.0",
+  "latest": "1.2.1",
+  "minimumVersion": "1.2.1",
   "releases": {
     "1.1.0": {
       "publishedAt": "2026-08-11T00:00:00Z",
@@ -40,6 +40,22 @@
           ],
           "new": [
             "Game mode only watches games you choose, and remembers them. Nothing is watched by default."
+          ]
+        }
+      }
+    },
+    "1.2.1": {
+      "publishedAt": "2026-08-11T08:00:00Z",
+      "sizeMb": 105,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Choose your games in Settings. Game mode watches those and nothing else, and none are chosen to begin with.",
+            "Web access can be given a password — before this the built-in server could not be logged into at all."
+          ],
+          "fixed": [
+            "Remote terminals could be opened without a licence."
           ]
         }
       }
