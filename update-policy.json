@@ -1,5 +1,5 @@
 {
-  "latest": "1.5.0",
+  "latest": "1.5.1",
   "minimumVersion": "1.5.0",
   "releases": {
     "1.4.4": {
@@ -101,6 +101,23 @@
             "Web pristup i telefonski interfejs.",
             "Updates panel i njegov feed vesti.",
             "Spotify. Lokalni plejer, plejliste i red su netaknuti."
+          ]
+        }
+      }
+    },
+    "1.5.1": {
+      "publishedAt": "2026-08-12T15:23:43.777Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "A button inside a notification is clickable again while the project picker is open."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Dugme u obaveštenju se opet može kliknuti dok je otvoren izbor projekta."
           ]
         }
       }
