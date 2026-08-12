@@ -1,6 +1,6 @@
 {
-  "latest": "1.4.5",
-  "minimumVersion": "1.4.4",
+  "latest": "1.5.0",
+  "minimumVersion": "1.5.0",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -50,6 +50,57 @@
           "new": [],
           "fixed": [
             "Klik na notifikaciju o novostima otvara baš tu vest. Ranije bi samo podigao prozor i ostavio te da je sam tražiš."
+          ]
+        }
+      }
+    },
+    "1.5.0": {
+      "publishedAt": "2026-08-12T14:30:41.161Z",
+      "sizeMb": 105,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Bring your own model. Add an Anthropic or OpenAI key, or point SpaleStudio at a model running on your own machine — llama.cpp, LM Studio, Ollama, vLLM. Settings → AI & Agents.",
+            "Keys are encrypted with a key your operating system holds, in this app's folder. They never enter your project and never leave the computer.",
+            "Split a terminal to the right or below it, from the buttons in its header or with Ctrl+\\ and Ctrl+Shift+\\. The new pane opens in the same folder.",
+            "Pick None and SpaleStudio's own AI is genuinely off. Your agents are their own programs and carry on as they are."
+          ],
+          "fixed": [
+            "The tray switches work. Turning the tray on puts the icon there now, turning it off takes it away, and minimise-to-close and start-minimised are remembered.",
+            "Run → Create New File makes the file and opens it. If a folder has to be trusted first, it says so instead of doing nothing.",
+            "The editor's Auto theme follows the pink theme instead of turning white in a dark window.",
+            "Claude tells you it is finished only for terminals inside SpaleStudio, and no longer interrupts a prompt in any other terminal.",
+            "Turn Log agent input off and it stops recording the terminals you already have open.",
+            "Saved logs list the sessions you actually typed in, not every terminal ever opened.",
+            "Copy buttons copy."
+          ],
+          "gone": [
+            "Web access and the phone interface.",
+            "The Updates panel and its news feed.",
+            "Spotify. The local player, playlists and queue are untouched."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Dovedi svoj model. Dodaj Anthropic ili OpenAI ključ, ili uperi SpaleStudio u model koji vrti na svojoj mašini — llama.cpp, LM Studio, Ollama, vLLM. Settings → AI & Agents.",
+            "Ključevi su šifrovani ključem koji drži tvoj operativni sistem, u folderu ove aplikacije. Nikad ne ulaze u projekat i ne napuštaju računar.",
+            "Rascepi terminal desno ili ispod, dugmadima u njegovom zaglavlju ili sa Ctrl+\\ i Ctrl+Shift+\\. Novi panel se otvara u istom folderu.",
+            "Izaberi None i SpaleStudio-ov AI je stvarno ugašen. Tvoji agenti su svoji programi i rade kao i pre."
+          ],
+          "fixed": [
+            "Tray prekidači rade. Uključivanje sad stvarno stavi ikonicu, gašenje je skloni, a minimizuj-na-zatvaranje i pokreni-minimizovano se pamte.",
+            "Run → Create New File napravi fajl i otvori ga. Ako folder prvo mora da bude trusted, to i kaže umesto da se ništa ne desi.",
+            "Auto tema u editoru prati pink temu umesto da pobeli u tamnom prozoru.",
+            "Claude javlja da je gotov samo za terminale unutar SpaleStudia, i više ne prekida kucanje u bilo kom drugom terminalu.",
+            "Ugasi Log agent input i prestaje da snima terminale koje već imaš otvorene.",
+            "Sačuvani logovi izlistavaju sesije u kojima si stvarno kucao, a ne svaki ikad otvoren terminal.",
+            "Dugmad za kopiranje kopiraju."
+          ],
+          "gone": [
+            "Web pristup i telefonski interfejs.",
+            "Updates panel i njegov feed vesti.",
+            "Spotify. Lokalni plejer, plejliste i red su netaknuti."
           ]
         }
       }
