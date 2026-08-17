@@ -121,6 +121,182 @@
           ]
         }
       }
+    },
+    "1.0.0": {
+      "publishedAt": "2026-08-09T18:02:59.510Z",
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Drop a file from Explorer onto a terminal and its path lands at the cursor, ready to send.",
+            "Right-click a terminal to rename it, or to move it to another folder.",
+            "Auto mode drives the agent's own mode where it has one, and reads its footer back to confirm.",
+            "When an agent stops to ask permission, the question and its options arrive as a notification you can answer from.",
+            "Game mode: while a full-screen game is in front, nothing takes focus and notifications wait for you.",
+            "Low CPU mode in Settings, for machines where SpaleStudio is not the only thing running."
+          ],
+          "fixed": [
+            "The Layout panel's grid buttons rearranged nothing — they wrote to a field the dock never read.",
+            "Files dropped on a terminal were refused outright."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Prevuci fajl iz Explorera na terminal i putanja padne na kurzor, spremna za slanje.",
+            "Desni klik na terminal za preimenovanje ili promenu foldera.",
+            "Auto mode pali agentov sopstveni režim tamo gde ga ima, i čita njegov footer da potvrdi.",
+            "Kad agent stane da pita za dozvolu, pitanje i opcije stižu kao notifikacija iz koje možeš da odgovoriš.",
+            "Game mode: dok je fullscreen igra u prvom planu, ništa ne krade fokus a notifikacije te čekaju.",
+            "Low CPU mod u podešavanjima, za mašine gde SpaleStudio nije jedino što radi."
+          ],
+          "fixed": [
+            "Dugmad za raspored u Layout panelu nisu premeštala ništa — pisala su u polje koje dock ne čita.",
+            "Fajlovi prevučeni na terminal su bili odbijani."
+          ]
+        }
+      }
+    },
+    "1.0.1": {
+      "publishedAt": "2026-08-10T06:20:26.292Z",
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Your agents can talk to each other. Ask one what it is working on, or hand it a task, and the answer comes back — Claude, Codex, Gemini, any of them, in any combination.",
+            "Type @name and a message in any terminal to send it to another agent, without leaving the one you are in.",
+            "A skill for Claude Code, so it knows the other agents are there and can reach them on its own. Tick it during setup.",
+            "SpaleStudio now checks what your computer is missing — agent CLIs, Android tools, adb drivers — and installs the ones you choose, in the right order, wherever you want them.",
+            "Crash reports and feedback arrive as messages you can read inside SpaleStudio, encrypted so only your computer can open them.",
+            "Updates arrive on their own, including the moment you are back online after your laptop has been shut for days."
+          ],
+          "fixed": [
+            "Installed tools that the terminal could not find are now spotted and fixed with one click.",
+            "The activation screen was unreadable and asked for the wrong key format."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Agenti mogu da pričaju međusobno. Pitaj jednog šta radi ili mu daj zadatak, i odgovor stiže — Claude, Codex, Gemini, bilo koji, u bilo kojoj kombinaciji.",
+            "Ukucaj @ime i poruku u bilo kom terminalu i ode drugom agentu, bez izlaska iz onog u kom si.",
+            "Skill za Claude Code, da sam zna da su ostali agenti tu i da može da ih dohvati. Štikliraj ga u setup-u.",
+            "SpaleStudio sada proverava šta ti fali na računaru — agent CLI-jeve, Android alate, adb drajvere — i instalira ono što izabereš, pravim redosledom, gde god hoćeš.",
+            "Crash izveštaji i feedback stižu kao poruke koje čitaš u SpaleStudio-u, šifrovane tako da ih samo tvoj računar može otvoriti.",
+            "Apdejti stižu sami, i čim se vratiš online posle laptopa koji je bio zatvoren danima."
+          ],
+          "fixed": [
+            "Alati koji su instalirani ali ih terminal ne vidi sada se prepoznaju i sređuju jednim klikom.",
+            "Ekran za aktivaciju je bio nečitljiv i tražio pogrešan format ključa."
+          ]
+        }
+      }
+    },
+    "1.4.0": {
+      "publishedAt": "2026-08-11T10:40:10.319Z",
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Claude tells you itself when it has finished and when it needs your permission. SpaleStudio used to guess from what the terminal printed, which is why it kept saying \"finished\" while Claude was still thinking. Turn it on in Settings → Notifications.",
+            "A pink theme, warm rather than sweet — now in Settings → Appearance, where you would look for it.",
+            "Web access has its own page in Settings instead of sitting at the foot of Integrations under Spotify and Git."
+          ],
+          "fixed": [
+            "Release notes in the News Center were printing their own HTML tags.",
+            "Opening this from your phone or browser now needs a licence, the same as opening it here.",
+            "A folder opened read-only can no longer have anything run in it — the prompt always said so, and now it is true.",
+            "Cloning a repository into a new folder asks you first instead of refusing, and refuses outright anywhere it should never write."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Claude ti sam javi kad je završio i kad mu treba tvoja dozvola. SpaleStudio je do sada pogađao iz onoga što terminal ispisuje, pa je zato javljao „gotovo\" dok je Claude još razmišljao. Uključi se u Settings → Notifications.",
+            "Pink tema, topla a ne slatkasta — sada u Settings → Appearance, tamo gde bi je i tražio.",
+            "Web pristup ima svoju stranu u Settings-u umesto da stoji na dnu Integrations-a ispod Spotifyja i Gita."
+          ],
+          "fixed": [
+            "Beleške o izdanjima u News Center-u su ispisivale svoje HTML tagove.",
+            "Otvaranje sa telefona ili iz pregledača sada traži licencu, isto kao i otvaranje ovde.",
+            "U folderu otvorenom kao read-only više ništa ne može da se pokrene — prompt je to oduvek pisao, sada je i tačno.",
+            "Kloniranje repozitorijuma u nov folder te pita umesto da odbije, a odbija odmah tamo gde nikad ne bi smelo da piše."
+          ]
+        }
+      }
+    },
+    "1.4.1": {
+      "publishedAt": "2026-08-11T11:05:57.703Z",
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Agent notifications stay off until Claude is reporting itself, and the page says so instead of leaving you with switches that quietly do nothing.",
+            "SpaleStudio knows whether SpaleHub is on this computer, so it stops pointing you at an add-on you have no way to reach."
+          ],
+          "fixed": [
+            "Cloning a repository into a new folder asks you first instead of refusing.",
+            "A folder opened read-only can no longer have a terminal started in it — the prompt always promised that, and now it is true."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Obaveštenja agenata su isključena dok Claude ne javlja sam, i stranica to i kaže umesto da ti ostavi prekidače koji ćutke ne rade ništa.",
+            "SpaleStudio zna da li je SpaleHub na ovom računaru, pa te više ne šalje po add-on do kog nemaš kako da stigneš."
+          ],
+          "fixed": [
+            "Kloniranje repozitorijuma u nov folder te pita umesto da odbije.",
+            "U folderu otvorenom kao read-only više ne može da se pokrene terminal — prompt je to oduvek obećavao, sada je i tačno."
+          ]
+        }
+      }
+    },
+    "1.4.2": {
+      "publishedAt": "2026-08-11T11:31:58.426Z",
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Settings would not open in 1.4.1. It opens.",
+            "Opening SpaleStudio from your phone or browser now shows the app instead of \"Cannot GET /\" — the web interface was never being served in a released build.",
+            "The window no longer freezes for a moment when a folder asks to be trusted.",
+            "Terminals follow the pink theme instead of staying white."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Settings nije mogao da se otvori u 1.4.1. Otvara se.",
+            "Otvaranje SpaleStudija sa telefona ili iz pregledača sada prikazuje program umesto „Cannot GET /\" — web interfejs nikada nije ni bio serviran u objavljenoj verziji.",
+            "Prozor se više ne zamrzne na trenutak kad folder traži poverenje.",
+            "Terminali prate pink temu umesto da ostanu beli."
+          ]
+        }
+      }
+    },
+    "1.4.3": {
+      "publishedAt": "2026-08-11T12:06:52.137Z",
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "The pink theme is pink everywhere — buttons, rings, scrollbars, tabs and terminals, not just the surfaces."
+          ],
+          "fixed": [
+            "Settings would not open in 1.4.1. It opens.",
+            "Opening SpaleStudio from your phone or browser shows the app instead of \"Cannot GET /\" — the web interface was never being served in a released build.",
+            "The window no longer freezes for a moment when a folder asks to be trusted.",
+            "Settings headings no longer pile up on top of each other as you scroll."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Pink tema je roza svuda — dugmad, prstenovi, skrolbarovi, tabovi i terminali, ne samo površine."
+          ],
+          "fixed": [
+            "Settings nije mogao da se otvori u 1.4.1. Otvara se.",
+            "Otvaranje SpaleStudija sa telefona ili iz pregledača prikazuje program umesto „Cannot GET /\" — web interfejs nikada nije ni bio serviran u objavljenoj verziji.",
+            "Prozor se više ne zamrzne na trenutak kad folder traži poverenje.",
+            "Naslovi u Settings-u se više ne gomilaju jedan preko drugog dok skroluješ."
+          ]
+        }
+      }
     }
   }
 }
