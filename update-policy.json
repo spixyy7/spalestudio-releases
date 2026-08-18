@@ -1,5 +1,5 @@
 {
-  "latest": "1.5.1",
+  "latest": "1.5.2",
   "minimumVersion": "1.5.0",
   "releases": {
     "1.4.4": {
@@ -294,6 +294,37 @@
             "Otvaranje SpaleStudija sa telefona ili iz pregledača prikazuje program umesto „Cannot GET /\" — web interfejs nikada nije ni bio serviran u objavljenoj verziji.",
             "Prozor se više ne zamrzne na trenutak kad folder traži poverenje.",
             "Naslovi u Settings-u se više ne gomilaju jedan preko drugog dok skroluješ."
+          ]
+        }
+      }
+    },
+    "1.5.2": {
+      "publishedAt": "2026-08-18T08:46:12.603Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "The welcome setup introduces itself on your first launch — close it once and it never comes back on its own.",
+            "Rename the project straight from the title bar — Edit project in the workspace menu.",
+            "Deleting the workspace you are in takes you back to the previous one."
+          ],
+          "fixed": [
+            "SpaleStudio opens instantly — no more freezing for a few seconds right after launch.",
+            "The title bar shows the workspace you are actually in — and says so when there is none.",
+            "The crash report appears only after a real crash — never after an update or a forced close."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Uvodno podešavanje se predstavi pri prvom pokretanju — zatvoriš ga jednom i više se samo ne vraća.",
+            "Preimenovanje projekta direktno iz naslovne trake — Edit project u workspace meniju.",
+            "Brisanje workspace-a u kom si vraća te na prethodni."
+          ],
+          "fixed": [
+            "SpaleStudio se otvara odmah — bez zamrzavanja na par sekundi posle pokretanja.",
+            "Naslovna traka pokazuje workspace u kom stvarno jesi — i kaže kad ga nema.",
+            "Prijava pada se pojavljuje samo posle pravog pada — nikad posle update-a ili prinudnog gašenja."
           ]
         }
       }
