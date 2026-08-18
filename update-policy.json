@@ -1,6 +1,6 @@
 {
-  "latest": "1.5.3",
-  "minimumVersion": "1.5.0",
+  "latest": "1.5.4",
+  "minimumVersion": "1.5.4",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -350,6 +350,31 @@
           "fixed": [
             "Ništa iz SpaleStudija se više ne pojavljuje u običnom terminalu — Claude hook-ovi rade samo u SpaleStudio terminalima, svuda drugde su nemi.",
             "Skill za dopisivanje agenata sada jasno kaže kad SpaleStudio nije pokrenut umesto greške o konekciji."
+          ]
+        }
+      }
+    },
+    "1.5.4": {
+      "publishedAt": "2026-08-18T20:11:25.502Z",
+      "sizeMb": 105,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "SpaleStudio says the moment SpaleHub is not running — a small notice with Open SpaleHub and Try again, and it clears itself when the hub is back."
+          ],
+          "fixed": [
+            "Every licence message names the exact problem and the place that fixes it — SpaleHub.",
+            "Updates land cleanly — the app can no longer start on a stale cached copy of the previous version."
+          ]
+        },
+        "sr": {
+          "new": [
+            "SpaleStudio kaže čim SpaleHub nije pokrenut — mala poruka sa Otvori SpaleHub i Pokušaj ponovo, koja se sama skloni kad se hub vrati."
+          ],
+          "fixed": [
+            "Svaka poruka o licenci imenuje tačan problem i mesto koje ga rešava — SpaleHub.",
+            "Update se primenjuje čisto — aplikacija više ne može da se pokrene na starom keširanom primerku prethodne verzije."
           ]
         }
       }
