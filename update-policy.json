@@ -1,5 +1,5 @@
 {
-  "latest": "1.5.2",
+  "latest": "1.5.3",
   "minimumVersion": "1.5.0",
   "releases": {
     "1.4.4": {
@@ -325,6 +325,31 @@
             "SpaleStudio se otvara odmah — bez zamrzavanja na par sekundi posle pokretanja.",
             "Naslovna traka pokazuje workspace u kom stvarno jesi — i kaže kad ga nema.",
             "Prijava pada se pojavljuje samo posle pravog pada — nikad posle update-a ili prinudnog gašenja."
+          ]
+        }
+      }
+    },
+    "1.5.3": {
+      "publishedAt": "2026-08-18T19:18:18.748Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Claude notifications stay set up when SpaleStudio is closed and pick up again the moment it starts."
+          ],
+          "fixed": [
+            "Nothing from SpaleStudio ever appears in an ordinary terminal — its Claude hooks act only inside SpaleStudio terminals, silently everywhere else.",
+            "The agent-messaging skill now says plainly when SpaleStudio is not running instead of showing a connection error."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Claude notifikacije ostaju podešene i kad je SpaleStudio ugašen — nastavljaju čim se pokrene."
+          ],
+          "fixed": [
+            "Ništa iz SpaleStudija se više ne pojavljuje u običnom terminalu — Claude hook-ovi rade samo u SpaleStudio terminalima, svuda drugde su nemi.",
+            "Skill za dopisivanje agenata sada jasno kaže kad SpaleStudio nije pokrenut umesto greške o konekciji."
           ]
         }
       }
