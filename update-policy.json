@@ -1,6 +1,6 @@
 {
-  "latest": "1.5.4",
-  "minimumVersion": "1.5.4",
+  "latest": "1.5.5",
+  "minimumVersion": "1.5.5",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -375,6 +375,23 @@
           "fixed": [
             "Svaka poruka o licenci imenuje tačan problem i mesto koje ga rešava — SpaleHub.",
             "Update se primenjuje čisto — aplikacija više ne može da se pokrene na starom keširanom primerku prethodne verzije."
+          ]
+        }
+      }
+    },
+    "1.5.5": {
+      "publishedAt": "2026-08-18T21:10:37.055Z",
+      "sizeMb": 105,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "fixed": [
+            "The SpaleHub connection screen now shows the link between the two programs, and says it in a line instead of a paragraph."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Ekran za vezu sa SpaleHub-om sada prikazuje vezu između dva programa, i kaže to u jednoj liniji umesto u pasusu."
           ]
         }
       }
