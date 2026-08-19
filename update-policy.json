@@ -1,5 +1,5 @@
 {
-  "latest": "1.6.1",
+  "latest": "1.6.2",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -564,6 +564,37 @@
           "fixed": [
             "Odvojeni prozor zadržava svoju traku na svakoj veličini, a red tastera na ekranu koji ju je menjao u uskom prozoru je uklonjen.",
             "Odvojeni fajl ima jednu traku umesto dve — njegov sopstveni red je traka prozora, i prevlačenjem se prozor pomera."
+          ]
+        }
+      }
+    },
+    "1.6.2": {
+      "publishedAt": "2026-08-19T21:18:52.058Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Open files are a row of tabs above the editor. Click to switch, close from the tab, and when there are more than fit, arrows appear at the ends and the wheel scrolls the row sideways.",
+            "One click in the Explorer opens a file — and clicking one that is already open asks whether to go to it or open a second view in its own window, with an answer you can keep.",
+            "A path in the header is a path you can walk: click any folder in it and the Explorer goes there, with the file still open.",
+            "An open file can be closed from the Explorer too — its row carries an X."
+          ],
+          "fixed": [
+            "The Explorer no longer disappears when you open a file. Opening one re-tiles the layout, and the tree was being treated as something the re-tile could drop.",
+            "A file that was open with no tab anywhere could never be shown again — clicking it in the Explorer did nothing at all."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Otvoreni fajlovi stoje kao red tabova iznad editora. Klik menja fajl, X na tabu ga zatvara, a kad ih ima više nego što stane, na krajevima se pojave strelice i točkić miša pomera red levo-desno.",
+            "Jedan klik u Exploreru otvara fajl — a klik na već otvoren pita da li da pređe na njega ili otvori drugi pogled u zasebnom prozoru, uz odgovor koji može da se zapamti.",
+            "Putanja u zaglavlju je putanja kojom se hoda: klikni bilo koji folder u njoj i Explorer ide tamo, a fajl ostaje otvoren.",
+            "Otvoren fajl može da se zatvori i iz Explorera — njegov red ima X."
+          ],
+          "fixed": [
+            "Explorer više ne nestaje kad otvoriš fajl. Otvaranje ponovo slaže raspored, a stablo je tretirano kao nešto što to slaganje sme da odbaci.",
+            "Fajl koji je bio otvoren a nije imao tab nigde nije mogao ponovo da se prikaže — klik na njega u Exploreru nije radio ništa."
           ]
         }
       }
