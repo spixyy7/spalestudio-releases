@@ -1,5 +1,5 @@
 {
-  "latest": "1.5.7",
+  "latest": "1.5.8",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -456,6 +456,37 @@
             "Run prvo snimi fajl, pa kompajlira ono što vidiš.",
             "Problemi mogu da se označe kao pročitani umesto da se brišu.",
             "Fajl se otvara jednom, kako god da mu je napisana putanja."
+          ]
+        }
+      }
+    },
+    "1.5.8": {
+      "publishedAt": "2026-08-19T17:26:27.954Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "SpaleAssist opens from the editor's header, beside the file it is talking about and next to the terminal that runs it.",
+            "The conversation stays. Your thread — and a change you looked at and did not apply — is still there the next time you open SpaleStudio, until you clear it.",
+            "A Claude subscription can pick its model, from the list the CLI itself offers.",
+            "SpaleAssist, AI & Agents and Claude Code have icons of their own instead of the same sparkle, and the Claude Code card shows a live dot when it is signed in.",
+            "The sidebar and the dock take their colours from your theme, all of them."
+          ],
+          "fixed": [
+            "The emulator's hardware check tells the truth about virtualization: it says it is off in Windows when that is what it is, instead of reporting a machine that can do it as one that cannot."
+          ]
+        },
+        "sr": {
+          "new": [
+            "SpaleAssist se otvara iz zaglavlja editora, pored fajla o kome priča i pored terminala koji ga pokreće.",
+            "Razgovor ostaje. Tvoja nit — i izmena koju si pogledao a nisi primenio — čeka te i sledeći put kad otvoriš SpaleStudio, dok je sam ne obrišeš.",
+            "Claude pretplata sad bira model, iz spiska koji sam CLI nudi.",
+            "SpaleAssist, AI & Agents i Claude Code imaju svoje ikonice umesto iste zvezdice, a kartica Claude Code pokazuje tačkicu kad je prijavljen.",
+            "Sidebar i dock uzimaju boje iz tvoje teme, sve do jedne."
+          ],
+          "fixed": [
+            "Provera hardvera za emulator govori istinu o virtuelizaciji: kaže da je isključena u Windowsu kad je to slučaj, umesto da mašinu koja to ume prijavi kao da ne ume."
           ]
         }
       }
