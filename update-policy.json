@@ -1,5 +1,5 @@
 {
-  "latest": "1.6.0",
+  "latest": "1.6.1",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -535,6 +535,35 @@
           "fixed": [
             "U podešavanjima Android emulatora opis grafičke opcije se više ne lepi za naziv, a opcija na kojoj si ponovo je označena.",
             "Red o hipervizoru izgleda kao podatak o mašini što i jeste: štiklica i dve reči, uz napomenu ispod koja kaže šta da se uradi."
+          ]
+        }
+      }
+    },
+    "1.6.1": {
+      "publishedAt": "2026-08-19T20:49:52.527Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "An open file can be closed. The header above it carries an X now, on Ctrl+W as well — and Ctrl+W, like every in-app shortcut, can be changed in Settings → Keyboard.",
+            "A file can be pulled out into a window of its own, with SpaleAssist, its terminal and Run all inside that window. The button that used to hand the file to another program does this instead.",
+            "The project menu in the status bar lists your projects wherever you opened it from, scrolls when there are many, and its second action creates a workspace instead of promising one."
+          ],
+          "fixed": [
+            "A detached window keeps its title bar at every size, and the row of on-screen keys that replaced it on a narrow window is gone.",
+            "A detached file has one title bar instead of two — the file's own row is the window's, and dragging it moves the window."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Otvoren fajl može da se zatvori. Zaglavlje iznad njega sad ima X, radi i Ctrl+W — a Ctrl+W, kao i svaka prečica u aplikaciji, menja se u Settings → Keyboard.",
+            "Fajl može da se izvuče u sopstveni prozor, sa SpaleAssistom, terminalom i Run-om unutar tog prozora. Dugme koje je fajl predavalo drugom programu sad radi to.",
+            "Meni projekata u statusnoj traci prikazuje tvoje projekte odakle god da si ga otvorio, skroluje kad ih je mnogo, a druga akcija pravi workspace umesto da ga obećava."
+          ],
+          "fixed": [
+            "Odvojeni prozor zadržava svoju traku na svakoj veličini, a red tastera na ekranu koji ju je menjao u uskom prozoru je uklonjen.",
+            "Odvojeni fajl ima jednu traku umesto dve — njegov sopstveni red je traka prozora, i prevlačenjem se prozor pomera."
           ]
         }
       }
