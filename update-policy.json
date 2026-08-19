@@ -1,5 +1,5 @@
 {
-  "latest": "1.5.6",
+  "latest": "1.5.7",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -419,6 +419,43 @@
             "Agenti se pokreću i kad nema otvorenog projekta — više ne odbija tvoj sopstveni home folder.",
             "Kad folder stvarno traži dozvolu, SpaleStudio je pita tu i dovrši ono što si započeo.",
             "Davanje dozvole za folder pita SpaleStudio u svom prozoru, i kaže tačno šta daje."
+          ]
+        }
+      }
+    },
+    "1.5.7": {
+      "publishedAt": "2026-08-19T15:40:46.531Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "SpaleAssist: ask about the code you have open, or say what to change. It answers with a diff you apply or discard, and it can run the file for you.",
+            "A terminal sits under your code, in the same window. Open as many as you need, and pick from the list when there are a lot.",
+            "The Run menu keeps what you run often — add a file, add a command, remove either.",
+            "Suggestions while you type: a dropdown built from your own file, and the AI finishing your line in grey. Tab takes it, Esc sends it away.",
+            "Choose which model each provider uses, from the list that provider actually offers."
+          ],
+          "fixed": [
+            "Run starts straight away and tells you when it has finished, with the program's own exit code.",
+            "Run saves your file first, so you compile what is on screen.",
+            "Problems can be marked as read instead of deleted.",
+            "A file opens once, however its path is spelled."
+          ]
+        },
+        "sr": {
+          "new": [
+            "SpaleAssist: pitaj za kod koji ti je otvoren, ili reci šta da promeni. Odgovara diffom koji prihvatiš ili odbaciš, i može da ti pokrene fajl.",
+            "Terminal stoji ispod koda, u istom prozoru. Otvori ih koliko ti treba, a kad ih je puno biraš iz liste.",
+            "Run meni pamti ono što često pokrećeš — dodaj fajl, dodaj komandu, obriši bilo šta od toga.",
+            "Predlozi dok kucaš: padajući spisak iz tvog fajla, i AI koji ti sivo dovršava red. Tab uzima, Esc odbacuje.",
+            "Biraš koji model koristi svaki provider, iz spiska koji taj provider stvarno nudi."
+          ],
+          "fixed": [
+            "Run kreće odmah i javi kad je gotov, sa exit kodom samog programa.",
+            "Run prvo snimi fajl, pa kompajlira ono što vidiš.",
+            "Problemi mogu da se označe kao pročitani umesto da se brišu.",
+            "Fajl se otvara jednom, kako god da mu je napisana putanja."
           ]
         }
       }
