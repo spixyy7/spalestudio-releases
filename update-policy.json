@@ -1,5 +1,5 @@
 {
-  "latest": "1.5.8",
+  "latest": "1.5.9",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -487,6 +487,25 @@
           ],
           "fixed": [
             "Provera hardvera za emulator govori istinu o virtuelizaciji: kaže da je isključena u Windowsu kad je to slučaj, umesto da mašinu koja to ume prijavi kao da ne ume."
+          ]
+        }
+      }
+    },
+    "1.5.9": {
+      "publishedAt": "2026-08-19T18:49:50.945Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "The Run menu lists the files you have open. Pick one and it runs — the one in the editor is marked, and the choice holds for F5 and the Run button too.",
+            "Choosing a file to run happens inside SpaleStudio now: your project, your places and your recent files in one picker, with the files nothing can run shown as such."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Run meni prikazuje fajlove koje imaš otvorene. Izabereš jedan i pokreće se — onaj u editoru je označen, a izbor važi i za F5 i za dugme Run.",
+            "Biranje fajla za pokretanje se sad dešava u samom SpaleStudiju: tvoj projekat, tvoja mesta i skorašnji fajlovi u jednom pickeru, a fajlovi koje ništa ne pokreće odmah se vide kao takvi."
           ]
         }
       }
