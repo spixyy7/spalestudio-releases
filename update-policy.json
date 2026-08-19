@@ -1,5 +1,5 @@
 {
-  "latest": "1.5.9",
+  "latest": "1.6.0",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -506,6 +506,35 @@
           "new": [
             "Run meni prikazuje fajlove koje imaš otvorene. Izabereš jedan i pokreće se — onaj u editoru je označen, a izbor važi i za F5 i za dugme Run.",
             "Biranje fajla za pokretanje se sad dešava u samom SpaleStudiju: tvoj projekat, tvoja mesta i skorašnji fajlovi u jednom pickeru, a fajlovi koje ništa ne pokreće odmah se vide kao takvi."
+          ]
+        }
+      }
+    },
+    "1.6.0": {
+      "publishedAt": "2026-08-19T19:21:00.620Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Game mode lists the programs open right now by name and icon, with a search — instead of raw window titles like .NET-BroadcastEventWindow.",
+            "A game can also be chosen as a file. It is then matched on the file itself, so a title that gains a level, a server or a language cannot break it.",
+            "Your games show the program's real icon, the one Windows shows."
+          ],
+          "fixed": [
+            "In the Android emulator settings the graphics options no longer run their description into their name, and the option you are on is marked again.",
+            "The hypervisor line reads as the machine fact it is: a tick and two words, next to the note that says what to do about it."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Game mode prikazuje programe koji su trenutno otvoreni, po imenu i ikonici, uz pretragu — umesto sirovih naslova prozora tipa .NET-BroadcastEventWindow.",
+            "Igra može da se izabere i kao fajl. Tada se prepoznaje po samom fajlu, pa naslov koji dobije nivo, server ili drugi jezik ne može da je pokvari.",
+            "Tvoje igre stoje sa pravom ikonicom programa, onom koju pokazuje i Windows."
+          ],
+          "fixed": [
+            "U podešavanjima Android emulatora opis grafičke opcije se više ne lepi za naziv, a opcija na kojoj si ponovo je označena.",
+            "Red o hipervizoru izgleda kao podatak o mašini što i jeste: štiklica i dve reči, uz napomenu ispod koja kaže šta da se uradi."
           ]
         }
       }
