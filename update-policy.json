@@ -1,6 +1,6 @@
 {
-  "latest": "1.5.5",
-  "minimumVersion": "1.5.5",
+  "latest": "1.5.6",
+  "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -392,6 +392,33 @@
         "sr": {
           "fixed": [
             "Ekran za vezu sa SpaleHub-om sada prikazuje vezu između dva programa, i kaže to u jednoj liniji umesto u pasusu."
+          ]
+        }
+      }
+    },
+    "1.5.6": {
+      "publishedAt": "2026-08-19T10:36:43.275Z",
+      "sizeMb": 105,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "SpaleSwarm asks how big a grid you want and how many of each agent, then starts them together."
+          ],
+          "fixed": [
+            "Agents start with no project open — launching one no longer refuses your own home folder.",
+            "When a folder does need your permission, SpaleStudio asks for it right there and finishes what you started.",
+            "Granting a folder is asked in SpaleStudio's own window, and it says exactly what it grants."
+          ]
+        },
+        "sr": {
+          "new": [
+            "SpaleSwarm pita koliki grid hoćeš i koliko kog agenta, pa ih pokrene zajedno."
+          ],
+          "fixed": [
+            "Agenti se pokreću i kad nema otvorenog projekta — više ne odbija tvoj sopstveni home folder.",
+            "Kad folder stvarno traži dozvolu, SpaleStudio je pita tu i dovrši ono što si započeo.",
+            "Davanje dozvole za folder pita SpaleStudio u svom prozoru, i kaže tačno šta daje."
           ]
         }
       }
