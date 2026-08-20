@@ -1,5 +1,5 @@
 {
-  "latest": "1.6.3",
+  "latest": "1.6.4",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -634,6 +634,25 @@
             "Odvajanje fajla otvara jedan tab, ne tri kopije, a zatvaranje poslednjeg taba zatvara prazan prozor.",
             "Views Activity šablon sada pravi pravi Kotlin + XML projekat, a Bottom Navigation stiže sa stvarnom navigacionom trakom. Novi projekti uključuju ispravan Gradle wrapper.",
             "Podešavanja emulatora se primenjuju na svaki virtuelni uređaj tačno kako je izabrano, a panel za virtuelizaciju sad kaže koju tačno kućicu treba čekirati — i sam otvara Windows Features."
+          ]
+        }
+      }
+    },
+    "1.6.4": {
+      "publishedAt": "2026-08-20T19:25:18.072Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Opening your home folder as a workspace works again: agents and terminals start in it without a trust prompt, the same as opening no folder at all.",
+            "When a folder really cannot be trusted for running things — a whole drive, or the whole home directory — the app now says so and tells you to open a project folder inside it, instead of closing the dialog and failing quietly on every terminal afterwards."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Otvaranje home foldera kao radnog prostora ponovo radi: agenti i terminali se pokreću u njemu bez trust dijaloga, isto kao kad nijedan folder nije otvoren.",
+            "Kad folderu stvarno ne može da se veruje za pokretanje — ceo disk, ili ceo home direktorijum — aplikacija to sada kaže i uputi te da otvoriš projekat unutar njega, umesto da zatvori dijalog i posle ćutke ruši svaki terminal."
           ]
         }
       }
