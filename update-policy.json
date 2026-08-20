@@ -1,5 +1,5 @@
 {
-  "latest": "1.6.2",
+  "latest": "1.6.3",
   "minimumVersion": "1.5.6",
   "releases": {
     "1.4.4": {
@@ -595,6 +595,45 @@
           "fixed": [
             "Explorer više ne nestaje kad otvoriš fajl. Otvaranje ponovo slaže raspored, a stablo je tretirano kao nešto što to slaganje sme da odbaci.",
             "Fajl koji je bio otvoren a nije imao tab nigde nije mogao ponovo da se prikaže — klik na njega u Exploreru nije radio ništa."
+          ]
+        }
+      }
+    },
+    "1.6.3": {
+      "publishedAt": "2026-08-20T12:46:12.315Z",
+      "sizeMb": 105,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Tabs go where you put them: drag to reorder, drag one out of the row to give it its own pane, drop it on another pane's tab row to merge them — an outline shows where it will land before you let go.",
+            "Every editor pane carries its own tabs, its own Run button and its own terminal, so two panes side by side each build and run their own file.",
+            "SpaleAssist opens beside the code it is about — a column on the right of that tab, with the terminal under the code. Each tab keeps its own conversation, and it travels with the file when you detach it.",
+            "A detached file can be dragged straight back into the workspace — drop its tab where you want it. The dock button returns it to the exact spot it left, unsaved edits and all.",
+            "Installing Gradle, Java or the Android SDK is one click and a real progress bar — live percentages and megabytes, no terminal windows, no administrator prompt, on any machine.",
+            "Renaming a project renames its .spv file on disk too, so the file is called what the project is called."
+          ],
+          "fixed": [
+            "Gradle installs no longer fail with an exit code — and the Java Update button now shows its progress and its badge goes away once you are up to date.",
+            "Detaching a file opens one tab, not three copies of it, and closing the last tab closes the empty window.",
+            "The Views Activity template now creates a real Kotlin + XML project and Bottom Navigation ships with an actual navigation bar. New projects include a working Gradle wrapper.",
+            "Emulator settings apply to every virtual device exactly as chosen, and the virtualization panel now tells you the exact box to tick — and opens Windows Features for you."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Tabovi idu gde ih staviš: prevuci da promeniš redosled, izvuci tab iz reda da dobije svoj panel, spusti ga na red tabova drugog panela da ih spojiš — okvir pokazuje gde će pasti pre nego što pustiš.",
+            "Svaki editor panel nosi svoje tabove, svoje Run dugme i svoj terminal, pa dva panela jedan pored drugog svaki gradi i pokreće svoj fajl.",
+            "SpaleAssist se otvara pored koda na koji se odnosi — kolona desno od tog taba, sa terminalom ispod koda. Svaki tab čuva svoj razgovor, i on putuje sa fajlom kad ga odvojiš u poseban prozor.",
+            "Odvojen fajl može da se prevuče nazad pravo u radni prostor — spusti njegov tab gde želiš. Dock dugme ga vraća tačno na mesto sa kog je otišao, zajedno sa nesnimljenim izmenama.",
+            "Instalacija Gradle-a, Jave ili Android SDK-a je jedan klik i prava traka napretka — procenti i megabajti uživo, bez terminala, bez administratorskog prozora, na bilo kojoj mašini.",
+            "Preimenovanje projekta preimenuje i njegov .spv fajl na disku, pa se fajl zove kako se projekat zove."
+          ],
+          "fixed": [
+            "Instalacija Gradle-a više ne pada uz exit kod — a Update dugme za Javu sad pokazuje napredak i njegova oznaka nestaje čim si na najnovijoj verziji.",
+            "Odvajanje fajla otvara jedan tab, ne tri kopije, a zatvaranje poslednjeg taba zatvara prazan prozor.",
+            "Views Activity šablon sada pravi pravi Kotlin + XML projekat, a Bottom Navigation stiže sa stvarnom navigacionom trakom. Novi projekti uključuju ispravan Gradle wrapper.",
+            "Podešavanja emulatora se primenjuju na svaki virtuelni uređaj tačno kako je izabrano, a panel za virtuelizaciju sad kaže koju tačno kućicu treba čekirati — i sam otvara Windows Features."
           ]
         }
       }
