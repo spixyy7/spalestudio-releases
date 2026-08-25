@@ -683,7 +683,7 @@
       "notes": {
         "en": {
           "new": [
-            "SpaleStudio is a new, lighter program: the download is 10 MB instead of 110, and it installs in seconds.",
+            "SpaleStudio is a new, lighter program: the download is 7 MB instead of 110, and it installs in seconds.",
             "The update removes the old version for you — one SpaleStudio in Apps, one on disk."
           ],
           "fixed": [
@@ -697,7 +697,7 @@
         },
         "sr": {
           "new": [
-            "SpaleStudio je nov, lakši program: preuzimanje je 10 MB umesto 110, a instalira se za par sekundi.",
+            "SpaleStudio je nov, lakši program: preuzimanje je 7 MB umesto 110, a instalira se za par sekundi.",
             "Ažuriranje samo uklanja staru verziju — jedan SpaleStudio u Aplikacijama, jedan na disku."
           ],
           "fixed": [
