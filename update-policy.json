@@ -1,6 +1,6 @@
 {
   "latest": "1.7.0",
-  "minimumVersion": "1.6.5",
+  "minimumVersion": "1.7.0",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -679,7 +679,7 @@
     "1.7.0": {
       "publishedAt": "2026-08-25T21:04:03.124Z",
       "sizeMb": 6,
-      "mandatory": false,
+      "mandatory": true,
       "notes": {
         "en": {
           "new": [
