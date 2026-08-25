@@ -1,5 +1,5 @@
 {
-  "latest": "1.6.5",
+  "latest": "1.7.0",
   "minimumVersion": "1.6.5",
   "releases": {
     "1.4.4": {
@@ -672,6 +672,41 @@
           "fixed": [
             "Projekat se otvara na radnom prostoru koji si u njemu ostavio — terminali, tabovi i raspored su tu čim se učita.",
             "Ikonica u taskbaru je SpaleStudio znak u svakoj veličini, isti onaj koji vidiš u aplikaciji."
+          ]
+        }
+      }
+    },
+    "1.7.0": {
+      "publishedAt": "2026-08-25T21:04:03.124Z",
+      "sizeMb": 6,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "SpaleStudio is a new, lighter program: the download is 10 MB instead of 110, and it installs in seconds.",
+            "The update removes the old version for you — one SpaleStudio in Apps, one on disk."
+          ],
+          "fixed": [
+            "Installing Gradle, the JDK, the SDK tools, adb or the emulator from the Android panel works, with real progress.",
+            "Settings → Android Emulator opens and shows your processor, memory and hypervisor.",
+            "Run on a device or emulator no longer waits forever.",
+            "Closing the window with unsaved files asks before anything is lost.",
+            "Retry after a workspace error actually restarts the workspace.",
+            "Notes, notebooks and study sessions are shown for your account only."
+          ]
+        },
+        "sr": {
+          "new": [
+            "SpaleStudio je nov, lakši program: preuzimanje je 10 MB umesto 110, a instalira se za par sekundi.",
+            "Ažuriranje samo uklanja staru verziju — jedan SpaleStudio u Aplikacijama, jedan na disku."
+          ],
+          "fixed": [
+            "Instalacija Gradle-a, JDK-a, SDK alata, adb-a ili emulatora iz Android panela radi, sa pravim procentima.",
+            "Podešavanja → Android Emulator se otvara i prikazuje procesor, memoriju i hipervizor.",
+            "Pokretanje na uređaju ili emulatoru više ne čeka zauvek.",
+            "Zatvaranje prozora sa nesačuvanim fajlovima pita pre nego što se išta izgubi.",
+            "Retry posle greške u radnom prostoru zaista ponovo pokreće radni prostor.",
+            "Beleške, sveske i sesije učenja se prikazuju samo za tvoj nalog."
           ]
         }
       }
