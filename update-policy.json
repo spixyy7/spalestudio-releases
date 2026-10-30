@@ -1,5 +1,5 @@
 {
-  "latest": "1.8.1",
+  "latest": "1.8.2",
   "minimumVersion": "1.8.1",
   "releases": {
     "1.4.4": {
@@ -811,6 +811,25 @@
             "Discord ekstenzija i njen bot.",
             "Lokalna prijava. Nalog i licenca žive u SpaleHubu.",
             "Podešavanje jezika. Prevodilo je samo Android Files panel."
+          ]
+        }
+      }
+    },
+    "1.8.2": {
+      "publishedAt": "2026-10-30T16:59:31.173Z",
+      "sizeMb": 13,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "While Claude is asking you something — its options, a permission, or the review of your answers — a message from another agent waits until you have answered, instead of picking an answer for you.",
+            "The agent who sent it is told why it waits: you are answering a question, or you are in /btw."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Dok te Claude nešto pita — opcije, dozvolu ili pregled tvojih odgovora — poruka drugog agenta čeka da odgovoriš, umesto da odgovori umesto tebe.",
+            "Agent koji je poslao poruku dobija objašnjenje zašto čeka: odgovaraš na pitanje ili si u /btw."
           ]
         }
       }
