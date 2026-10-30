@@ -1,5 +1,5 @@
 {
-  "latest": "1.8.2",
+  "latest": "1.8.3",
   "minimumVersion": "1.8.1",
   "releases": {
     "1.4.4": {
@@ -830,6 +830,23 @@
           "fixed": [
             "Dok te Claude nešto pita — opcije, dozvolu ili pregled tvojih odgovora — poruka drugog agenta čeka da odgovoriš, umesto da odgovori umesto tebe.",
             "Agent koji je poslao poruku dobija objašnjenje zašto čeka: odgovaraš na pitanje ili si u /btw."
+          ]
+        }
+      }
+    },
+    "1.8.3": {
+      "publishedAt": "2026-10-30T19:12:49.221Z",
+      "sizeMb": 13,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Agent Bridge comes with SpaleStudio: anyone who has SpaleStudio can add it, along with every other add-on, whether through a licence or a role such as Tester."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Agent Bridge dolazi uz SpaleStudio: svako ko ima SpaleStudio može da ga doda, kao i sve ostale dodatke, bilo preko licence ili preko uloge kao što je Tester."
           ]
         }
       }
