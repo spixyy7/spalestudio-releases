@@ -1,6 +1,6 @@
 {
-  "latest": "1.7.1",
-  "minimumVersion": "1.7.1",
+  "latest": "1.8.1",
+  "minimumVersion": "1.8.1",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -726,6 +726,91 @@
           "fixed": [
             "Ako licenca prestane da važi dok je SpaleStudio otvoren, sada te obavesti i odvede u SpaleHub da to rešiš.",
             "Posle pada, SpaleStudio pita šta si radio — i izveštaj koji napišeš se šalje, šifrovan, umesto da samo bude sačuvan."
+          ]
+        }
+      }
+    },
+    "1.8.1": {
+      "publishedAt": "2026-10-30T07:46:20.701Z",
+      "sizeMb": 13,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "SpaleSwarm puts a team of agents on one goal — from a builder and reviewer pair up to twelve — and you talk to all of them in one chat.",
+            "SpaleChat: chat with Claude, Codex and your other installed CLIs, with files, pictures and sources, and switch CLI without losing the thread.",
+            "The Dashboard replaces Home: every open workspace and what each agent is doing or asking right now.",
+            "A new start screen, sidebar and top bar, and the Explorer now sits beside the editor.",
+            "Focus shows where each agent is working and follows the one writing, letter by letter in the editor.",
+            "SpaleMemory: a shared vault your agents search and write to, with links and a record of who changed what.",
+            "SpaleBoard: a task board for each project, where a swarm's plan shows up as cards.",
+            "Pick a model and an effort for each agent from what its CLI actually supports, and start a Space or Swarm safe or with Skip Permissions.",
+            "Agents in a workspace find each other by tile name and message each other — even a Claude or Codex you typed into a plain terminal.",
+            "Plugins and Addons add MCP servers, skills and hooks to your CLIs in one step, with keys kept out of source files.",
+            "Routines start work on their own, at times you set like an alarm.",
+            "A browser inside SpaleStudio, and links from a terminal open in it.",
+            "Send feedback from the top bar, with pictures, and the reply arrives in your notifications.",
+            "SpaleStudio has its own folder picker, and you can choose to always trust new folders."
+          ],
+          "fixed": [
+            "Everything SpaleStudio starts — terminals, agents, emulators, builds — closes with it, even after a crash.",
+            "The window no longer freezes while SpaleStudio waits on slow work, or when you type as it opens.",
+            "After a crash or forced close your terminals come back as they were, and a Claude you started by hand picks up its conversation.",
+            "Keys and pastes reach a terminal in the order you sent them, and a right-click opens the menu without pasting.",
+            "A terminal stays where you are reading while an agent writes, and Jump to latest takes you back down.",
+            "Maximize makes a terminal fill the whole workspace.",
+            "Agent CLIs are found wherever they were installed, and Codex is updated before it starts.",
+            "Android emulators are created and found reliably, system image downloads show progress, and the built-in emulator screen responds to touch.",
+            "Folders open at once, New Project saves straight to disk, and the project picker no longer stalls.",
+            "The installer closes a running SpaleStudio before installing, without a progress bar that jumps back and forth.",
+            "When SpaleHub needs an update, SpaleStudio says so instead of asking you to sign in.",
+            "Sign in through SpaleHub and confirm this computer once for SpaleStudio. Normal updates keep that confirmation.",
+            "Licensed work checks your account and this computer, Chat respects workspace trust, and HTML previews are isolated.",
+            "Updates and SpaleHub installs are verified by signature, and vulnerable dependencies are updated."
+          ],
+          "gone": [
+            "The Discord extension and its bot.",
+            "Local sign-in. Your account and licence live in SpaleHub.",
+            "The language setting. It only ever translated the Android Files panel."
+          ]
+        },
+        "sr": {
+          "new": [
+            "SpaleSwarm stavlja tim agenata na jedan cilj — od para graditelj i recenzent do dvanaest njih — a ti razgovaraš sa svima u jednom chatu.",
+            "SpaleChat: ćaskaj sa Claudeom, Codexom i ostalim instaliranim CLI-jevima, uz fajlove, slike i izvore, i promeni CLI bez gubljenja razgovora.",
+            "Dashboard menja Home: svaki otvoren radni prostor i šta svaki agent upravo radi ili pita.",
+            "Nov početni ekran, sidebar i gornja traka, a Explorer sada stoji pored editora.",
+            "Focus pokazuje gde svaki agent radi i prati onog koji piše, slovo po slovo u editoru.",
+            "SpaleMemory: zajednički trezor koji agenti pretražuju i u koji upisuju, sa linkovima i zapisom ko je šta menjao.",
+            "SpaleBoard: tabla zadataka za svaki projekat, na kojoj se plan swarma pojavljuje kao kartice.",
+            "Izaberi model i nivo truda za svakog agenta iz onoga što njegov CLI stvarno podržava, i pokreni Space ili Swarm bezbedno ili sa Skip Permissions.",
+            "Agenti u radnom prostoru nalaze jedni druge po imenu pločice i šalju jedni drugima poruke — čak i Claude ili Codex koji si ukucao u običan terminal.",
+            "Plugins i Addons dodaju MCP servere, skillove i hookove tvojim CLI-jevima u jednom koraku, a ključevi ne idu u izvorne fajlove.",
+            "Routines same pokreću posao, u vreme koje podesiš kao alarm.",
+            "Pregledač unutar SpaleStudia, a linkovi iz terminala se otvaraju u njemu.",
+            "Pošalji feedback iz gornje trake, uz slike, a odgovor stiže u tvoja obaveštenja.",
+            "SpaleStudio ima svoj birač foldera, a možeš da izabereš da novim folderima uvek veruješ."
+          ],
+          "fixed": [
+            "Sve što SpaleStudio pokrene — terminali, agenti, emulatori, buildovi — gasi se s njim, čak i posle pada.",
+            "Prozor se više ne zamrzava dok SpaleStudio čeka na spor posao, niti kad kucaš dok se otvara.",
+            "Posle pada ili prinudnog gašenja terminali se vraćaju kakvi su bili, a Claude koji si sam pokrenuo nastavlja svoj razgovor.",
+            "Tasteri i nalepljen tekst stižu u terminal redom kojim si ih poslao, a desni klik otvara meni bez lepljenja.",
+            "Terminal ostaje gde čitaš dok agent piše, a Jump to latest te vraća na dno.",
+            "Maximize širi terminal preko celog radnog prostora.",
+            "CLI se nalazi gde god da je instaliran, a Codex se ažurira pre nego što krene.",
+            "Android emulatori se prave i pronalaze pouzdano, preuzimanje system image-a pokazuje napredak, a ugrađeni ekran emulatora reaguje na dodir.",
+            "Folderi se otvaraju odmah, Novi projekat se odmah snima na disk, a birač projekata više ne zastaje.",
+            "Instaler zatvara pokrenut SpaleStudio pre instalacije, bez trake napretka koja skače napred-nazad.",
+            "Kad SpaleHubu treba ažuriranje, SpaleStudio to kaže umesto da traži da se prijaviš.",
+            "Prijava ide kroz SpaleHub uz jednokratnu potvrdu ovog računara za SpaleStudio. Redovna ažuriranja čuvaju tu potvrdu.",
+            "Licencirani rad proverava tvoj nalog i ovaj računar, Chat poštuje poverenje radnog prostora, a HTML pregledi su izolovani.",
+            "Ažuriranja i instaliranje SpaleHuba se proveravaju potpisom, a ranjive biblioteke su ažurirane."
+          ],
+          "gone": [
+            "Discord ekstenzija i njen bot.",
+            "Lokalna prijava. Nalog i licenca žive u SpaleHubu.",
+            "Podešavanje jezika. Prevodilo je samo Android Files panel."
           ]
         }
       }
