@@ -1,5 +1,5 @@
 {
-  "latest": "1.8.3",
+  "latest": "1.8.4",
   "minimumVersion": "1.8.1",
   "releases": {
     "1.4.4": {
@@ -847,6 +847,25 @@
         "sr": {
           "new": [
             "Agent Bridge dolazi uz SpaleStudio: svako ko ima SpaleStudio može da ga doda, kao i sve ostale dodatke, bilo preko licence ili preko uloge kao što je Tester."
+          ]
+        }
+      }
+    },
+    "1.8.4": {
+      "publishedAt": "2026-10-31T04:24:51.109Z",
+      "sizeMb": 13,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Swarm agents start again when Claude Code or Codex was installed with npm. They stopped with \"Swarm CLI directory differs from its installed profile\".",
+            "Codex agent hooks no longer say Needs review when Codex Computer Use is installed. The hooks were working all along, and Addons now shows them as installed."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Swarm agenti se ponovo pokreću kad su Claude Code ili Codex instalirani preko npm-a. Stajali su uz poruku \"Swarm CLI directory differs from its installed profile\".",
+            "Codex agent hookovi više ne pišu Needs review kad je instaliran Codex Computer Use. Hookovi su sve vreme radili, a Addons ih sada prikazuje kao instalirane."
           ]
         }
       }
