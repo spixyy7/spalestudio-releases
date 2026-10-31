@@ -1,5 +1,5 @@
 {
-  "latest": "1.8.5",
+  "latest": "1.8.6",
   "minimumVersion": "1.8.5",
   "releases": {
     "1.4.4": {
@@ -883,6 +883,23 @@
         "sr": {
           "fixed": [
             "Bezbednosna poboljšanja i poboljšanja pouzdanosti kroz ceo SpaleStudio. Ovo ažuriranje je obavezno."
+          ]
+        }
+      }
+    },
+    "1.8.6": {
+      "publishedAt": "2026-10-31T11:35:18.856Z",
+      "sizeMb": 13,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "When a Swarm agent refuses to start, SpaleStudio can now tell us what kind of setup it refused, so the cause can be found and fixed."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Kada Swarm agent odbije da se pokrene, SpaleStudio sada može da nam javi kakvu je postavku odbio, da bi uzrok mogao da se pronađe i popravi."
           ]
         }
       }
