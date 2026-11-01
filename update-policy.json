@@ -1,5 +1,5 @@
 {
-  "latest": "1.8.8",
+  "latest": "1.8.9",
   "minimumVersion": "1.8.7",
   "releases": {
     "1.4.4": {
@@ -972,6 +972,23 @@
             "Swarm terminali više nisu odsečeni pri dnu, a dugme za zatvaranje bočnog panela više ne prekriva njegov poslednji tab.",
             "Zauzeta ili spora internet veza — na primer dok se preuzima update nekog agent CLI-ja — više ne zaustavlja SpaleStudio usred rada.",
             "Ako SpaleStudio neko vreme ne može da dobije Spale server, sada to kaže jasno umesto da piše da licenca više ne važi, i nastavlja sam čim se veza vrati."
+          ]
+        }
+      }
+    },
+    "1.8.9": {
+      "publishedAt": "2026-11-01T16:39:57.442Z",
+      "sizeMb": 13,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Swarm agents no longer refuse to start with \"Swarm CLI directory differs from its installed profile\". SpaleStudio now works out the agent CLI's folder itself instead of refusing the launch."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Swarm agenti više ne odbijaju da se pokrenu sa „Swarm CLI directory differs from its installed profile“. SpaleStudio sada sam određuje folder agent CLI-ja umesto da odbije pokretanje."
           ]
         }
       }
