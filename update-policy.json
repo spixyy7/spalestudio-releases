@@ -1,6 +1,6 @@
 {
-  "latest": "1.8.12",
-  "minimumVersion": "1.8.7",
+  "latest": "1.8.13",
+  "minimumVersion": "1.8.13",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -1043,10 +1043,35 @@
           ]
         }
       }
+    },
+    "1.8.13": {
+      "publishedAt": "2026-11-01T17:47:34.019Z",
+      "sizeMb": 13,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Withdrawn versions now require an update before starting new work.",
+            "A temporary connection failure no longer forgets a required update."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Povučene verzije sada zahtevaju ažuriranje pre početka novih operacija.",
+            "Privremeni prekid veze više ne uklanja obavezno ažuriranje."
+          ]
+        },
+        "zh": {
+          "fixed": [
+            "已停用的版本必须更新后才能开始新的操作。",
+            "暂时断网不再取消必须更新的要求。"
+          ]
+        }
+      }
     }
   },
   "security": {
-    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTUyMTM5OTYsImxhdGVzdCI6IjEuOC4xMiIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjciLCJtaW5pbXVtSHViVmVyc2lvbiI6bnVsbCwidXBkYXRlSHViVmVyc2lvbiI6bnVsbH0",
-    "sig": "GmjdlyHBKhPGhh-HGdM0wmL8eXYIEYQtbOAsqk4JgOL3_IKNj7rEi-rvggGYoCSiX0kAMUuvvB1xVyP5J3bhCA"
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTUyNTQwMjAsImxhdGVzdCI6IjEuOC4xMyIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjEzIiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
+    "sig": "xPy33FjLSdLpaBwOGQgJSnl7C22Hfbq_zV3ZpF4q8K0OAkNW_MJMyFOBs-Hby6IzntapJM6-scKlEYJj_faFBw"
   }
 }
