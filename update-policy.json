@@ -1,6 +1,6 @@
 {
-  "latest": "1.8.15",
-  "minimumVersion": "1.8.15",
+  "latest": "1.8.16",
+  "minimumVersion": "1.8.16",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -1122,10 +1122,49 @@
           ]
         }
       }
+    },
+    "1.8.16": {
+      "publishedAt": "2026-11-01T19:53:24.417Z",
+      "sizeMb": 13,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Installing Cline from SpaleStudio installs the Cline CLI again. The package it used had become a different tool without a cline command.",
+            "Qwen Coder is found after it is installed. Its command is qwen, and SpaleStudio was looking for another name.",
+            "On a processor without AVX2, a CLI that only exists for newer processors (Cline) now says so before it starts, instead of opening a terminal that closes.",
+            "When an agent's CLI stops because the processor lacks instructions it needs, its card says that in plain words.",
+            "The Swarm's clock shows how long its agents have been running now, not how long ago the Swarm was made. A Swarm opened a minute ago no longer reads 31 hours.",
+            "A terminal whose graphics driver starts WebGL but draws nothing switches to the standard renderer on its own, instead of staying blank. Where WebGL works it is kept.",
+            "On a processor with four threads or fewer, Swarm agents start one after another instead of all at once, so slow first launches are no longer cancelled halfway.",
+            "Your own short messages in the Swarm chat no longer show up as a tall empty bubble."
+          ],
+          "new": [
+            "A Swarm launch that is cancelled after waiting a long time is reported with how long each step took.",
+            "Using SpaleHub, SpaleStudio and SpaleVoice requires accepting the Terms of Use and the Privacy Policy once for your account; acceptance in one app covers all three."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Instalacija Cline-a iz SpaleStudio-a ponovo instalira Cline CLI. Paket koji je korišćen postao je drugi alat, bez komande cline.",
+            "Qwen Coder se pronalazi posle instalacije. Njegova komanda je qwen, a SpaleStudio je tražio drugo ime.",
+            "Na procesoru bez AVX2, CLI koji postoji samo za novije procesore (Cline) to kaže pre pokretanja, umesto da otvori terminal koji se zatvori.",
+            "Kad CLI agenta stane jer procesoru nedostaju instrukcije koje mu trebaju, kartica to kaže jasnim rečima.",
+            "Sat u Swarm-u pokazuje koliko agenti trenutno rade, a ne koliko je prošlo otkako je Swarm napravljen. Swarm otvoren pre minut više ne piše 31 sat.",
+            "Terminal kome grafički drajver pokrene WebGL ali ništa ne iscrta sam prelazi na standardni renderer, umesto da ostane prazan. Gde WebGL radi, ostaje.",
+            "Na procesoru sa četiri niti ili manje, Swarm agenti se pokreću jedan za drugim umesto svi odjednom, pa se spora prva pokretanja više ne prekidaju na pola.",
+            "Tvoje kratke poruke u Swarm chatu više se ne prikazuju kao visok prazan balon."
+          ],
+          "new": [
+            "Swarm pokretanje koje se otkaže posle dugog čekanja prijavljuje se sa trajanjem svakog koraka.",
+            "Korišćenje SpaleHub-a, SpaleStudio-a i SpaleVoice-a zahteva jednokratno prihvatanje Uslova korišćenja i Politike privatnosti za nalog; prihvatanje u jednom programu važi za sva tri."
+          ]
+        }
+      }
     }
   },
   "security": {
-    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NjEwMjkyMzUsImxhdGVzdCI6IjEuOC4xNSIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjE1IiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
-    "sig": "3YqTHV0kS6hLqtfGSmcPEfDLPmUkpJuBQHrmGvFxNBu5FHGxK8GgsPQVpSo5UZkeEwdoabgKKpv1FYn7B1nUAw"
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NjI4MDQ0MTksImxhdGVzdCI6IjEuOC4xNiIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjE2IiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
+    "sig": "wIJEBoB1oBgnv6b6JoFBCsEtu9dq0yhJnpPyvzsRFfOjkNnmKu72z35j0BFpYuYjnep6_FcxyvVQFRYPKv5qDg"
   }
 }
