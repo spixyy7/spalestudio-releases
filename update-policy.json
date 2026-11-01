@@ -1,6 +1,6 @@
 {
-  "latest": "1.8.16",
-  "minimumVersion": "1.8.16",
+  "latest": "1.8.17",
+  "minimumVersion": "1.8.17",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -1161,10 +1161,47 @@
           ]
         }
       }
+    },
+    "1.8.17": {
+      "publishedAt": "2026-11-01T21:35:14.856Z",
+      "sizeMb": 13,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "A clearer agreement screen: read the Terms of Use and Privacy Policy inside SpaleStudio, side by side with the accept panel; it fits any window size.",
+            "An agent tile switched to its chat view now reads like SpaleChat: only the conversation, with commands folded into one line each."
+          ],
+          "fixed": [
+            "The chat view of an agent appears as soon as the CLI writes its conversation, instead of minutes later.",
+            "The internal context a CLI adds for itself no longer shows up as your message in the chat view.",
+            "OpenCode's status line, mode footer and spinner scraps no longer show up as an agent's activity.",
+            "A computer without a SpaleStudio licence sees the licence message, not a legal check that could not be verified, and the agreement screen no longer flashes at start.",
+            "SpaleStudio asks the server about the agreement far less often.",
+            "Swarm token counts show what agents actually used; context re-read from cache is shown separately. OpenCode 2 usage appears again.",
+            "General stability and security improvements."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Pregledniji ekran sa uslovima: Uslovi korišćenja i Politika privatnosti se čitaju u SpaleStudio-u, pored panela za prihvatanje; staje u svaku veličinu prozora.",
+            "Agent prebačen u prikaz chata sada izgleda kao SpaleChat: samo razgovor, a komande su sklopljene u po jedan red."
+          ],
+          "fixed": [
+            "Chat prikaz agenta se pojavljuje čim CLI upiše razgovor, umesto posle nekoliko minuta.",
+            "Interni kontekst koji CLI dodaje za sebe više se ne prikazuje kao tvoja poruka u chatu.",
+            "OpenCode-ov statusni red, red sa modom i delovi animacije više se ne prikazuju kao aktivnost agenta.",
+            "Računar bez SpaleStudio licence vidi poruku o licenci, a ne pravnu proveru koja nije mogla da se potvrdi, i ekran sa uslovima više ne trepne na startu.",
+            "SpaleStudio mnogo ređe pita server o uslovima.",
+            "Broj tokena u Swarm-u pokazuje stvarnu potrošnju agenata; kontekst ponovo pročitan iz keša prikazan je posebno. Ponovo se vidi potrošnja za OpenCode 2.",
+            "Opšta poboljšanja stabilnosti i bezbednosti."
+          ]
+        }
+      }
     }
   },
   "security": {
-    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NjI4MDQ0MTksImxhdGVzdCI6IjEuOC4xNiIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjE2IiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
-    "sig": "wIJEBoB1oBgnv6b6JoFBCsEtu9dq0yhJnpPyvzsRFfOjkNnmKu72z35j0BFpYuYjnep6_FcxyvVQFRYPKv5qDg"
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1Njg5MTQ4NTgsImxhdGVzdCI6IjEuOC4xNyIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjE3IiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
+    "sig": "wYXcnpJxw7L-0BLh1QhkI5-kHxmoy1TXHXbPkZQSI9PxNoUPxT46Uwc3DLC37ehTThQ2cDCvpnMquGpNKEWDBg"
   }
 }
