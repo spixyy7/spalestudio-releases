@@ -1,6 +1,6 @@
 {
-  "latest": "1.8.6",
-  "minimumVersion": "1.8.5",
+  "latest": "1.8.7",
+  "minimumVersion": "1.8.7",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -900,6 +900,53 @@
         "sr": {
           "fixed": [
             "Kada Swarm agent odbije da se pokrene, SpaleStudio sada može da nam javi kakvu je postavku odbio, da bi uzrok mogao da se pronađe i popravi."
+          ]
+        }
+      }
+    },
+    "1.8.7": {
+      "publishedAt": "2026-11-01T15:06:04.000Z",
+      "sizeMb": 13,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "The Board opens inside the Space you are in, as a tab beside its terminals, and is still there when you come back. With no Space open it gets its own workspace as before.",
+            "Error reports are sent automatically, so a problem you hit reaches us without you doing anything. They carry only technical details: never a prompt, a path, terminal text or a title. Turn them off in Settings, Security & Privacy. Anonymous analytics stays off unless you turn it on.",
+            "Application and helper code now ship with stronger protection, with tighter separation between embedded web pages and terminal data."
+          ],
+          "fixed": [
+            "Returning to a Space you had left no longer starts its terminals and agents a second time. The ones that were running come back, so a conversation is never open in two processes at once.",
+            "Switching an agent tile between Terminal and Chat now shows the same conversation in both, including after a /clear or a new thread.",
+            "Swarm agents no longer refuse to start with \"Swarm CLI directory differs from its installed profile\" on computers whose command shell or PATH is set up differently.",
+            "Close now ends a Space even when a terminal appears while it is closing, instead of refusing and leaving the row open.",
+            "The number beside a Space counts the lines listed under it. It used to count only the agents, so a Space with plain terminals in it showed a smaller number than the list it sat next to.",
+            "In the Swarm roster, the CLI picker stays inside a narrow agent card, and muted text in Focus approvals and Swarm permissions is muted again.",
+            "New terminal output no longer pulls you to the bottom after you scroll up to read.",
+            "Swarm wake and restart limits stay consistent when work changes or agents stop and restart.",
+            "The updated installer honors the Hub’s request not to close a running Studio and reports when you need to close it before retrying.",
+            "In directly launched Windows Claude Code 2.1.316 agent tiles, messages from other agents reach the main conversation while you are viewing a subagent. Other launch modes keep the existing delivery path.",
+            "Starting the development build no longer replaces the running release’s agent bridge connection files."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Board se otvara unutar Space-a u kom si, kao tab pored terminala, i tu je i kad se vratiš. Kad nijedan Space nije otvoren, dobija svoj workspace kao i do sada.",
+            "Izveštaji o greškama se šalju automatski, pa problem na koji naiđeš stiže do nas bez ikakve radnje sa tvoje strane. Sadrže samo tehničke podatke: nikada prompt, putanju, tekst iz terminala ili naslov. Isključuju se u Settings, Security & Privacy. Anonimna analitika ostaje isključena dok je ne uključiš.",
+            "Kod aplikacije i pomoćnih skripti sada se isporučuje sa jačom zaštitom, uz strože razdvajanje ugrađenih veb-stranica od podataka iz terminala."
+          ],
+          "fixed": [
+            "Povratak u Space koji si napustio više ne pokreće njegove terminale i agente po drugi put. Vraćaju se oni koji su radili, pa jedna konverzacija nikada nije otvorena u dva procesa.",
+            "Prebacivanje agent tile-a između Terminal i Chat sada u oba prikazuje istu konverzaciju, i posle /clear ili nove niti.",
+            "Swarm agenti više ne odbijaju da se pokrenu sa „Swarm CLI directory differs from its installed profile“ na računarima čiji su komandni shell ili PATH podešeni drugačije.",
+            "Close sada zatvori Space i kada se terminal pojavi usred zatvaranja, umesto da odbije i ostavi red otvoren.",
+            "Broj pored Space-a broji redove izlistane ispod njega. Ranije je brojao samo agente, pa je Space sa običnim terminalima pokazivao manji broj nego lista pored koje stoji.",
+            "U Swarm rosteru izbor CLI-ja ostaje unutar uske kartice agenta, a prigušen tekst u Focus odobrenjima i Swarm dozvolama ponovo je prigušen.",
+            "Novi izlaz terminala više te ne vraća na dno kada skroluješ nagore da čitaš.",
+            "Swarm ograničenja buđenja i ponovnog pokretanja ostaju dosledna kada se zadaci promene ili se agenti zaustave i ponovo pokrenu.",
+            "Novi installer poštuje zahtev Hub-a da ne gasi Studio koji radi i prijavljuje kada ga treba zatvoriti pre ponovnog pokušaja.",
+            "U direktno pokrenutim Windows agent tile-ovima sa Claude Code 2.1.316, poruke drugih agenata stižu u glavni razgovor i dok gledaš subagenta. Ostali načini pokretanja zadržavaju dosadašnji put isporuke.",
+            "Pokretanje razvojne verzije više ne prepisuje fajlove za povezivanje agent bridge-a release verzije koja radi."
           ]
         }
       }
