@@ -1,6 +1,6 @@
 {
-  "latest": "1.8.14",
-  "minimumVersion": "1.8.14",
+  "latest": "1.8.15",
+  "minimumVersion": "1.8.15",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -1093,10 +1093,39 @@
           ]
         }
       }
+    },
+    "1.8.15": {
+      "publishedAt": "2026-11-01T19:23:49.233Z",
+      "sizeMb": 13,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "fixed": [
+            "A Swarm agent's card no longer says its CLI is missing and must be installed while the CLI is already running. The line came from the start command echoed by the terminal, not from an error.",
+            "A Swarm or Space agent whose CLI stops right after starting is now reported with its exit code, so a processor the CLI cannot run on is recognised.",
+            "Agent CLIs installed with mise are found."
+          ],
+          "new": [
+            "Every terminal and agent tile, not only Swarm agents, writes the same short launch log on this computer: where its CLI was found, which shell, and how long each step took.",
+            "Problem reports include the computer's hardware: processor and its instruction support, memory, graphics card, motherboard, and the country. Never the IP address, names or serial numbers."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Kartica Swarm agenta više ne piše da CLI nedostaje i da mora da se instalira dok CLI već radi. Taj red je bio eho komande za pokretanje u terminalu, a ne greška.",
+            "Swarm ili Space agent čiji CLI stane odmah posle pokretanja sada se prijavljuje sa izlaznim kodom, pa se prepoznaje i procesor na kome CLI ne može da radi.",
+            "Pronalaze se i agent CLI-jevi instalirani preko mise-a."
+          ],
+          "new": [
+            "Svaki terminal i agent, ne samo Swarm agenti, upisuje isti kratak log pokretanja na ovom računaru: gde je CLI pronađen, koji shell i koliko je trajao svaki korak.",
+            "Prijave problema sadrže hardver računara: procesor i instrukcije koje podržava, memoriju, grafičku karticu, matičnu ploču i zemlju. Nikad IP adresu, imena ili serijske brojeve."
+          ]
+        }
+      }
     }
   },
   "security": {
-    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTg1MDk4MTIsImxhdGVzdCI6IjEuOC4xNCIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjE0IiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
-    "sig": "R2kFov_j9lYCt3H6uxF0OdqKdHVXrcwLm-HT-_vcZzA0soWJD9FoG6auOKi5q1zjUiHpPg-g5Vph1RuzFWnXCg"
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NjEwMjkyMzUsImxhdGVzdCI6IjEuOC4xNSIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjE1IiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
+    "sig": "3YqTHV0kS6hLqtfGSmcPEfDLPmUkpJuBQHrmGvFxNBu5FHGxK8GgsPQVpSo5UZkeEwdoabgKKpv1FYn7B1nUAw"
   }
 }
