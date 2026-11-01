@@ -1,5 +1,5 @@
 {
-  "latest": "1.8.7",
+  "latest": "1.8.8",
   "minimumVersion": "1.8.7",
   "releases": {
     "1.4.4": {
@@ -947,6 +947,31 @@
             "Novi installer poštuje zahtev Hub-a da ne gasi Studio koji radi i prijavljuje kada ga treba zatvoriti pre ponovnog pokušaja.",
             "U direktno pokrenutim Windows agent tile-ovima sa Claude Code 2.1.316, poruke drugih agenata stižu u glavni razgovor i dok gledaš subagenta. Ostali načini pokretanja zadržavaju dosadašnji put isporuke.",
             "Pokretanje razvojne verzije više ne prepisuje fajlove za povezivanje agent bridge-a release verzije koja radi."
+          ]
+        }
+      }
+    },
+    "1.8.8": {
+      "publishedAt": "2026-11-01T16:23:10.106Z",
+      "sizeMb": 13,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Swarm terminals fit the window on small and large screens. When two side by side would be too narrow to read, each agent gets the full width and you switch between them from the bar above the terminals, or with the mouse wheel over a terminal's frame. Large screens show two, four or more at once.",
+            "The mouse wheel scrolls a terminal running a fullscreen CLI such as Claude Code again after its tile is redrawn — switching rows or Spaces, or coming back from the swarm list.",
+            "Swarm terminals are no longer cut off at the bottom, and the side panel's close button no longer covers its last tab.",
+            "A busy or slow internet connection — for example while an agent CLI update downloads — no longer stops SpaleStudio in the middle of your work.",
+            "If SpaleStudio cannot reach the Spale server for a while, it now says so plainly instead of saying your licence is no longer valid, and carries on by itself once the connection is back."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Swarm terminali se uklapaju u prozor i na malim i na velikim ekranima. Kada bi dva jedan pored drugog bila preuska za čitanje, svaki agent dobija punu širinu, a između njih se prebacuješ iz trake iznad terminala ili točkićem miša preko okvira terminala. Veliki ekrani prikazuju dva, četiri ili više odjednom.",
+            "Točkić miša ponovo skroluje terminal u kom radi fullscreen CLI kao što je Claude Code, i posle ponovnog iscrtavanja tile-a — prebacivanja redova ili Space-ova, ili povratka iz liste swarm-ova.",
+            "Swarm terminali više nisu odsečeni pri dnu, a dugme za zatvaranje bočnog panela više ne prekriva njegov poslednji tab.",
+            "Zauzeta ili spora internet veza — na primer dok se preuzima update nekog agent CLI-ja — više ne zaustavlja SpaleStudio usred rada.",
+            "Ako SpaleStudio neko vreme ne može da dobije Spale server, sada to kaže jasno umesto da piše da licenca više ne važi, i nastavlja sam čim se veza vrati."
           ]
         }
       }
