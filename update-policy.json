@@ -1,5 +1,5 @@
 {
-  "latest": "1.8.9",
+  "latest": "1.8.10",
   "minimumVersion": "1.8.7",
   "releases": {
     "1.4.4": {
@@ -989,6 +989,23 @@
         "sr": {
           "fixed": [
             "Swarm agenti više ne odbijaju da se pokrenu sa „Swarm CLI directory differs from its installed profile“. SpaleStudio sada sam određuje folder agent CLI-ja umesto da odbije pokretanje."
+          ]
+        }
+      }
+    },
+    "1.8.10": {
+      "publishedAt": "2026-11-01T16:55:35.376Z",
+      "sizeMb": 13,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "The problem report window is simpler: one line says whether the report was sent, and you can send it again yourself even after it went out automatically."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Prozor za prijavu problema je jednostavniji: jedna linija kaže da li je izveštaj poslat, a možeš da ga pošalješ ponovo i kada je već otišao automatski."
           ]
         }
       }
