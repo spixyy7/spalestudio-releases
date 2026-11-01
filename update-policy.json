@@ -1,6 +1,6 @@
 {
-  "latest": "1.8.13",
-  "minimumVersion": "1.8.13",
+  "latest": "1.8.14",
+  "minimumVersion": "1.8.14",
   "releases": {
     "1.4.4": {
       "publishedAt": "2026-08-11T17:38:27.741Z",
@@ -1068,10 +1068,35 @@
           ]
         }
       }
+    },
+    "1.8.14": {
+      "publishedAt": "2026-11-01T18:41:49.810Z",
+      "sizeMb": 13,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Agent CLIs are found in more places — including ones installed after SpaleStudio was opened, and scoop, pnpm, nvm, Yarn and fnm installs."
+          ],
+          "new": [
+            "Each agent launch writes a short, readable log of its steps on this computer, so an agent that will not start can be diagnosed quickly.",
+            "Problem reports for an agent that does not start include how long each step took and how often it was tried — numbers only, never text or paths."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Agent CLI-jevi se pronalaze na više mesta — i oni instalirani posle otvaranja SpaleStudio-a, kao i scoop, pnpm, nvm, Yarn i fnm instalacije."
+          ],
+          "new": [
+            "Svako pokretanje agenta upisuje kratak, čitljiv log koraka na ovom računaru, pa se agent koji ne krene brzo dijagnostikuje.",
+            "Prijave za agenta koji ne krene sadrže koliko je trajao svaki korak i koliko puta je pokušano — samo brojeve, nikad tekst ili putanje."
+          ]
+        }
+      }
     }
   },
   "security": {
-    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTUyNTQwMjAsImxhdGVzdCI6IjEuOC4xMyIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjEzIiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
-    "sig": "xPy33FjLSdLpaBwOGQgJSnl7C22Hfbq_zV3ZpF4q8K0OAkNW_MJMyFOBs-Hby6IzntapJM6-scKlEYJj_faFBw"
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZXN0dWRpbyIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlc3R1ZGlvLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTg1MDk4MTIsImxhdGVzdCI6IjEuOC4xNCIsIm1pbmltdW1WZXJzaW9uIjoiMS44LjE0IiwibWluaW11bUh1YlZlcnNpb24iOm51bGwsInVwZGF0ZUh1YlZlcnNpb24iOm51bGx9",
+    "sig": "R2kFov_j9lYCt3H6uxF0OdqKdHVXrcwLm-HT-_vcZzA0soWJD9FoG6auOKi5q1zjUiHpPg-g5Vph1RuzFWnXCg"
   }
 }
